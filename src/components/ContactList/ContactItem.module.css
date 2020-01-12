@@ -1,0 +1,31 @@
+.outline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+  outline: 1px solid #11998e;
+}
+
+.text {
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+}
+
+.button {
+  border: none;
+  padding: 8px 20px;
+  margin-right: 6px;
+  max-width: 186px;
+  background-color: #0f2027;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #11998e;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #11998e;
+  color: #0f2027;
+}

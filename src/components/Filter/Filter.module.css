@@ -1,0 +1,24 @@
+.text {
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.input {
+  display: block;
+  margin-bottom: 8px;
+  min-width: 244px;
+  border: none;
+  border: 1px solid #11998e;
+  background: #0f2027;
+  color: #11998e;
+  padding: 6px 8px;
+}
+
+.input::placeholder {
+  color: #11998e;
+}
+
+.input:focus {
+  background: #11998e;
+  color: #0f2027;
+}
