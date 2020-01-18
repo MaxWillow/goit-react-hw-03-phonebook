@@ -50,7 +50,6 @@ export default class ContactForm extends Component {
             id="number"
             type="tel"
             pattern="[0-9]{10}"
-            // placeholder="0xx-xxx-xx-xx"
             value={number}
             onChange={this.handleChange}
             className={styles.input}
